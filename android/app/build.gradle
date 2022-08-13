@@ -135,7 +135,7 @@ apply plugin: "com.android.application"
       compileSdkVersion rootProject.ext.compileSdkVersion
   
       defaultConfig {
-          applicationId "com.example.app"
+          applicationId "com.ff04.com"
           minSdkVersion rootProject.ext.minSdkVersion
           targetSdkVersion rootProject.ext.targetSdkVersion
           versionCode 1
@@ -158,7 +158,7 @@ apply plugin: "com.android.application"
                       cppFlags "-std=c++17"
                       // Make sure this target name is the same you specify inside the
                       // src/main/jni/Android.mk file for the 'LOCAL_MODULE' variable.
-                      targets "MyApp_appmodules"
+                      targets "ff04_appmodules"
                   }
               }
               if (!enableSeparateBuildPerCPUArchitecture) {
